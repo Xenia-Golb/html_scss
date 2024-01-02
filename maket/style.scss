@@ -1,0 +1,172 @@
+$colorSpan: #f16d7f;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #ffffff;
+    // box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
+    padding-right: 34px;
+}
+
+.header__brand {
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222222;
+
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.browse_buttom {
+    width: 87px;
+    height: 38px;
+    margin-left: 30px;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+    border: 1px solid #e6e6e6;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.header__right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.search {
+    width: 317px;
+    height: 38px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px 3px 3px 0px;
+    text-align: center;
+}
+
+.user_buttom {
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    border: none;
+}
+
+.nav_top {
+    height: 51px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    &__nav_top_link {
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #222222;
+    }
+}
+
+span {
+    color: $colorSpan;
+
+    &__fashion {
+        font-size: 40px;
+    }
+
+    &__d {
+        font-weight: 900;
+    }
+}
+
+span2 {
+    font-size: 40px;
+}
+
+.content__welcome {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: stretch;
+    gap: 30px;
+}
+
+
+.pictWelcome {
+    width: 12px;
+    height: 120px;
+    background-color: #f16d7f;
+    position: absolute;
+    margin-right: 20px;
+}
+
+.content__welcome__text {
+    padding-left: 40px;
+    width: 50%;
+    position: absolute;
+    font-family: Lato;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.content__welcome__img {
+    position: static;
+    height: 665px;
+    background-color: #e8e8e8;
+}
+
+.cardSale {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.saleCardTit {
+    position: absolute;
+    ;
+}
