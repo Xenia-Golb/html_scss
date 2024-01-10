@@ -72,23 +72,41 @@ summary::before {
     border-radius: 3px 0px 0px 3px;
 }
 
-.header__right {
+.header__search {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-    align-items: flex-end;
-    gap: 30px;
 }
 
 .search {
-    width: 317px;
+    width: 200px;
     height: 38px;
     background-color: #ffffff;
     border: 1px solid #e6e6e6;
     border-radius: 0px 3px 3px 0px;
     text-align: center;
     left: 20px;
+}
+
+.header__search-img {
+    width: 25px;
+    height: 25px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px 3px 3px 0px;
+    fill: #898989;
+}
+
+.header__right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    margin-top: -20px;
 }
 
 .user_buttom {
