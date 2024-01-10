@@ -26,8 +26,10 @@ header {
     justify-content: space-between;
     height: 100px;
     background-color: #ffffff;
-    // box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
-    padding-right: 34px;
+    border: 1px solid #e6e6e6;
+    padding-left: 100px;
+    padding-right: 100px;
+
 }
 
 .header__brand {
@@ -99,6 +101,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 40px;
+
 
     &__nav_top_link {
         text-decoration: none;
@@ -522,9 +525,10 @@ footer {
     text-transform: uppercase;
     letter-spacing: 0.025em;
     color: #3e3e40;
+    display: block;
     padding-left: 60px;
     margin-top: -35px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .footerFootTit {

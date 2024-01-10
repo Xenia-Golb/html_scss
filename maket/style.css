@@ -24,7 +24,9 @@ header {
   justify-content: space-between;
   height: 100px;
   background-color: #ffffff;
-  padding-right: 34px;
+  border: 1px solid #e6e6e6;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .header__brand {
@@ -496,9 +498,10 @@ footer {
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: #3e3e40;
+  display: block;
   padding-left: 60px;
   margin-top: -35px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .footerFootTit {
