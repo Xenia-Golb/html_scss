@@ -24,10 +24,27 @@ header___brand {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-left: 20px;
+  padding-left: 140px;
 }
 .header__left__logo {
   padding-right: 20px;
+}
+.header__left__browse {
+  display: flex;
+  position: relative;
+  flex-direction: row-reverse;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  width: 100px;
+}
+.header__left__browse__svg {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding-top: 3px;
+  padding-left: 25px;
 }
 
 summary {
@@ -41,7 +58,10 @@ summary::-webkit-details-marker {
 }
 
 .browse__buttom {
-  padding: 10px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 10px;
   margin-left: 30px;
   text-align: center;
   background-color: #cdcdcc;
@@ -60,6 +80,7 @@ summary::-webkit-details-marker {
 .browse__buttom__search {
   padding-top: 100px;
   display: flex;
+  text-align: center;
 }
 .browse__buttom____search-img {
   width: 25px;
@@ -99,7 +120,7 @@ summary::-webkit-details-marker {
   background-color: #ffffff;
   border: 1px solid #e6e6e6;
   border-radius: 0px 3px 3px 0px;
-  text-align: justify;
+  text-align: center;
 }
 
 .header__search-img {
@@ -125,8 +146,14 @@ summary::-webkit-details-marker {
   margin-top: -20px;
 }
 
-.user_buttom {
-  width: 130px;
+.user {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  align-items: center;
+}
+.user__buttom {
+  width: 140px;
   padding: 10px;
   margin-left: 10px;
   text-align: center;
@@ -137,6 +164,12 @@ summary::-webkit-details-marker {
   letter-spacing: 0.025em;
   color: #ffffff;
   border: none;
+}
+.user__img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-right: 20px;
 }
 
 nav {
@@ -715,4 +748,14 @@ span__subscribe_pict__par__bot {
   gap: 20px;
   padding-right: 30px;
   margin-top: -30px;
+}
+.footer__foot__brand {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.footer__foot__brand:hover {
+  background-color: #f16d7f;
+  border: 2px solid #f16d7f;
 }/*# sourceMappingURL=style.css.map */

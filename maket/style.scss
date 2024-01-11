@@ -29,10 +29,30 @@ header {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-left: 20px;
+    padding-left: 140px;
 
     &__logo {
         padding-right: 20px;
+    }
+
+    &__browse {
+        display: flex;
+        position: relative;
+        flex-direction: row-reverse;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 20px;
+        width: 100px;
+
+        &__svg {
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            padding-top: 3px;
+            padding-left: 25px;
+
+        }
     }
 
 }
@@ -49,7 +69,10 @@ summary::-webkit-details-marker {
 
 
 .browse__buttom {
-    padding: 10px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
     margin-left: 30px;
     text-align: center;
     background-color: #cdcdcc;
@@ -70,6 +93,7 @@ summary::-webkit-details-marker {
     &__search {
         padding-top: 100px;
         display: flex;
+        text-align: center;
     }
 
     &____search-img {
@@ -123,7 +147,7 @@ summary::-webkit-details-marker {
     background-color: #ffffff;
     border: 1px solid #e6e6e6;
     border-radius: 0px 3px 3px 0px;
-    text-align: justify;
+    text-align: center;
 
 
 }
@@ -151,18 +175,32 @@ summary::-webkit-details-marker {
     margin-top: -20px;
 }
 
-.user_buttom {
-    width: 130px;
-    padding: 10px;
-    margin-left: 10px;
-    text-align: center;
-    background-color: #f16d7f;
-    font-size: 15px;
-    line-height: 32px;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #ffffff;
-    border: none;
+.user {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+
+    &__buttom {
+        width: 140px;
+        padding: 10px;
+        margin-left: 10px;
+        text-align: center;
+        background-color: #f16d7f;
+        font-size: 15px;
+        line-height: 32px;
+        font-weight: 400;
+        letter-spacing: 0.025em;
+        color: #ffffff;
+        border: none;
+    }
+
+    &__img {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        margin-right: 20px;
+    }
 }
 
 nav {
@@ -815,6 +853,19 @@ span {
             gap: 20px;
             padding-right: 30px;
             margin-top: -30px;
+        }
+
+        &__brand {
+            width: 32px;
+            height: 32px;
+            background-color: #ffffff;
+            border: 2px solid #ffffff;
+
+
+            &:hover {
+                background-color: $colorSpan;
+                border: 2px solid $colorSpan;
+            }
         }
 
 
