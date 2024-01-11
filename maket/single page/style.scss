@@ -12,8 +12,6 @@ header {
     background-color: #ffffff;
     border: 1px solid #e6e6e6;
     margin-top: 30px;
-    // padding-left: 100px;
-    // padding-right: 100px;
     margin-bottom: 16px;
 
     &___brand {
@@ -54,8 +52,11 @@ header {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 20px;
     padding-left: 140px;
+
+    &__logo {
+        padding-right: 20px;
+    }
 
 }
 
@@ -368,6 +369,10 @@ span {
         color: #636363;
 
         &__span {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 300;
+            text-transform: uppercase;
             font-weight: 700;
             color: #f16d7f;
         }
@@ -624,7 +629,7 @@ span {
 
     &__pict {
         &__img {
-            // margin-top: -300px;
+            margin-top: -100px;
             position: absolute;
             text-align: start;
             justify-content: flex-start;
@@ -634,7 +639,7 @@ span {
         &__par {
             text-align: justify;
             padding-left: 450px;
-            // margin-top: -300px;
+            margin-top: -100px;
             font-size: 16px;
             line-height: 26px;
             font-weight: 400;
@@ -679,7 +684,7 @@ span {
         text-decoration: none;
 
         &__tit {
-            margin-top: -220px;
+            margin-top: -150px;
 
         }
 
@@ -870,11 +875,17 @@ span {
         &__brand {
             width: 32px;
             height: 32px;
-            background-color: #F16D7F;
-            border: 6px solid #F16D7F;
-            fill: #FFFFFF;
+            background-color: #ffffff;
+            border: 2px solid #ffffff;
+            ;
 
+            // fill: #FFFFFF;
+            &:hover {
+                background-color: $colorSpan;
+                border: 2px solid $colorSpan;
+            }
         }
+
 
 
     }

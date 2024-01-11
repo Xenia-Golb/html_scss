@@ -4,11 +4,11 @@ $colorSpan: #f16d7f;
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 100px;
     background-color: #ffffff;
     border: 1px solid #e6e6e6;
     margin-top: 30px;
-    padding-left: 100px;
     padding-right: 100px;
     margin-bottom: 16px;
 
@@ -29,7 +29,11 @@ header {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 20px;
+    margin-left: 20px;
+
+    &__logo {
+        padding-right: 20px;
+    }
 
 }
 
@@ -84,6 +88,7 @@ summary::-webkit-details-marker {
 }
 
 
+
 // .browse__buttom_box {
 //     position: absolute;
 //     background-color: #ffffff;
@@ -96,7 +101,7 @@ summary::-webkit-details-marker {
 .browse_buttom_box::before {
     content: "";
     display: block;
-    width: 16px;
+    width: 30px;
     height: 16px;
     position: absolute;
     top: -9px;
@@ -109,6 +114,7 @@ summary::-webkit-details-marker {
 
 .header__search {
     display: flex;
+    text-align: left;
 }
 
 .search {
@@ -117,8 +123,9 @@ summary::-webkit-details-marker {
     background-color: #ffffff;
     border: 1px solid #e6e6e6;
     border-radius: 0px 3px 3px 0px;
-    text-align: left;
-    left: 20px;
+    text-align: justify;
+
+
 }
 
 .header__search-img {

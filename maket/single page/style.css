@@ -43,8 +43,10 @@ header____search-img {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 20px;
   padding-left: 140px;
+}
+.header__left__logo {
+  padding-right: 20px;
 }
 
 summary {
@@ -323,6 +325,10 @@ span__subscribe_pict__par__bot {
   color: #636363;
 }
 .bread__crumb__link__span {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
   font-weight: 700;
   color: #f16d7f;
 }
@@ -542,6 +548,7 @@ span__subscribe_pict__par__bot {
   margin-top: -30%;
 }
 .subscribe__pict__img {
+  margin-top: -100px;
   position: absolute;
   text-align: start;
   justify-content: flex-start;
@@ -550,6 +557,7 @@ span__subscribe_pict__par__bot {
 .subscribe__pict__par {
   text-align: justify;
   padding-left: 450px;
+  margin-top: -100px;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -589,7 +597,7 @@ span__subscribe_pict__par__bot {
   text-decoration: none;
 }
 .subscribe__form__tit {
-  margin-top: -220px;
+  margin-top: -150px;
 }
 .subscribe__form__par {
   padding-left: 30px;
@@ -751,7 +759,10 @@ span__subscribe_pict__par__bot {
 .footer__foot__brand {
   width: 32px;
   height: 32px;
-  background-color: #F16D7F;
-  border: 6px solid #F16D7F;
-  fill: #FFFFFF;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.footer__foot__brand:hover {
+  background-color: #f16d7f;
+  border: 2px solid #f16d7f;
 }/*# sourceMappingURL=style.css.map */
