@@ -693,6 +693,55 @@ span__subscribe_pict__par__bot {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
+  gap: 30px;
+}
+.product__forms__shipping-adress {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+.product__forms__shipping-adress__block {
+  width: 355px;
+  height: 45px;
+  padding-top: 16px;
+  margin-top: 20px;
+  padding-left: 18px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #b1b1b1;
+}
+.product__forms__shipping-adress__button {
+  margin-top: 23px;
+  width: 100px;
+  height: 35px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4a4a4a;
+}
+.product__forms__coupon-discount {
+  margin-right: 40px;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+.product__forms__coupon-discount__par {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #000000;
 }
 .product__forms__total {
   display: flex;
@@ -701,10 +750,11 @@ span__subscribe_pict__par__bot {
   justify-content: space-around;
   align-content: flex-end;
   padding-right: 43px;
-  width: 360px;
-  height: 214px;
   background-color: #f5f3f3;
-  padding-bottom: 40px;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  padding-left: 20px;
 }
 .product__forms__total__par-top {
   font-size: 11px;
@@ -713,7 +763,7 @@ span__subscribe_pict__par__bot {
   text-transform: uppercase;
   color: #4a4a4a;
   text-align: right;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 15px;
 }
 .product__forms__total__par-top__span {

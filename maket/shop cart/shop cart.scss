@@ -807,6 +807,67 @@ span {
         flex-direction: row;
         justify-content: space-between;
         align-items: baseline;
+        gap: 30px;
+
+        &__shipping-adress {
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #222222;
+
+            &__block {
+                width: 355px;
+                height: 45px;
+                padding-top: 16px;
+                margin-top: 20px;
+                padding-left: 18px;
+                background-color: #ffffff;
+                border: 1px solid #eaeaea;
+                font-size: 13px;
+                line-height: 1.2;
+                font-weight: 300;
+                color: #b1b1b1;
+
+                // &__svg {
+                //     position: absolute;
+                //     width: 16px;
+                //     height: 16px;
+                //     margin-right: 20px;
+                // }
+            }
+
+            &__button {
+                margin-top: 23px;
+                width: 100px;
+                height: 35px;
+                background-color: #ffffff;
+                border: 1px solid #eaeaea;
+                font-size: 11px;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #4a4a4a;
+            }
+        }
+
+        &__coupon-discount {
+            margin-right: 40px;
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #222222;
+
+            &__par {
+                padding-top: 28px;
+                padding-bottom: 28px;
+                font-size: 14px;
+                line-height: 1.2;
+                font-weight: 300;
+                color: #000000;
+            }
+        }
 
         &__total {
             display: flex;
@@ -815,10 +876,11 @@ span {
             justify-content: space-around;
             align-content: flex-end;
             padding-right: 43px;
-            width: 360px;
-            height: 214px;
             background-color: #f5f3f3;
-            padding-bottom: 40px;
+            margin-top: 40px;
+            padding-top: 40px;
+            padding-bottom: 80px;
+            padding-left: 20px;
 
             &__par-top {
                 font-size: 11px;
@@ -827,7 +889,7 @@ span {
                 text-transform: uppercase;
                 color: #4a4a4a;
                 text-align: right;
-                padding-top: 40px;
+                padding-top: 20px;
                 padding-bottom: 15px;
 
                 &__span {
