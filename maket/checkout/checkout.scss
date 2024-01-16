@@ -1,0 +1,146 @@
+@import "/maket/base.css";
+
+$colorSpan: #f16d7f;
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__block {
+        font-size: 16px;
+        line-height: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #222222;
+        padding-top: 33px;
+        padding-bottom: 33px;
+        border-bottom: 1px solid #e8e8e8;
+
+        &__shipping-adress {
+            display: flex;
+            justify-content: start;
+            gap: 130px;
+
+            &__head {
+                margin-top: 89px;
+                font-size: 16px;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #222222;
+                border-bottom: 1px solid #e8e8e8;
+            }
+
+            &__left {
+                padding-left: 25px;
+            }
+
+            &__titl {
+                font-size: 13px;
+                line-height: 1.2;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: #222222;
+                padding-top: 39px;
+                padding-bottom: 15px;
+
+                &__but {
+                    font-size: 13px;
+                    line-height: 1.2;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    color: #222222;
+                    padding-top: 34px;
+
+                    &__img {
+                        width: 14px;
+                        padding-right: 5px;
+
+                        // &:hover {
+                        // }
+                    }
+
+
+                }
+            }
+
+            &__par {
+                font-size: 13px;
+                line-height: 20px;
+                font-weight: 400;
+                color: #b3b2b2;
+
+                &__det {
+                    font-size: 13px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    color: #b3b2b2;
+                    padding-top: 34px;
+                }
+
+
+            }
+
+            &__but {
+                width: 180px;
+                height: 50px;
+                background-color: #ffffff;
+                border: 1px solid #eaeaea;
+                font-size: 14px;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #4a4a4a;
+                margin-top: 39px;
+                margin-bottom: 50px;
+
+                &__link {
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    color: #222222;
+                    padding-left: 32px;
+                }
+
+            }
+
+            &__forms {
+                padding-top: 27px;
+
+                &__email {
+                    display: flex;
+                    font-size: 12px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    color: #222222;
+
+                    &__pl {
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        width: 390px;
+                        height: 45px;
+                        background-color: #ffffff;
+                        border: 1px solid #eaeaea;
+                    }
+
+                }
+
+                &__par {
+                    font-size: 13px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    color: #ff0d0d;
+                }
+
+                em {
+                    padding-left: 3px;
+                    font-weight: bold;
+                    font-style: normal;
+                    color: #f00;
+                }
+            }
+        }
+    }
+}

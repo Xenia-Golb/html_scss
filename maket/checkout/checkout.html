@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,700&display=swap"
@@ -17,10 +17,11 @@
         <div class="header__left ">
             <img class="header__left__logo" src="/maket/img/header__logo.svg" alt="logo">
             <div class="logo__brand">
-                <a class="header__brand" href="#">BRAN <span class="span__d">D</span> </a>
+                <a class="header__brand" href="#">BRAN <span class="span_d">D</span> </a>
             </div>
             <div class="header__left__browse">
-                <img class="header__left__browse__svg" src="/maket/img/triangle-down-svgrepo-com — копия.svg" alt="">
+                <img class="header__left__browse__svg" src="/maket/img/triangle-down-svgrepo-com — копия.svg"
+                    width="15px" alt="">
                 <details>
                     <summary class="browse__buttom">Browse</summary>
                     <div class="browse__buttom__box">
@@ -53,13 +54,56 @@
                 <img class="header__search-img" src="/maket/img/magnifying glass.svg" alt="">
             </div>
         </div>
-
         </div>
         <div class="header__right">
-            <img class="shopping_bag" src="/maket/img/shopping_bag.jpg" alt="">
+            <img class="shopping_bag" src="./img/shopping_bag.jpg" alt="">
             <div class="user">
                 <details>
                     <summary class="user__buttom">My Account </summary>
+                    <div class="user__buttom__item">
+
+                        <div class="user__buttom__item__par">
+                            <img class="user__buttom__item__par__img" src="/maket/img/cart-img.png" alt="">
+                            <div class="user__buttom__item__par__info">
+                                <div class="user__buttom__item__par__tit">Rebox Zane</div>
+                                <div class="user__buttom__item__par__stars">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                </div>
+                                <div class="user__buttom__item__par__price">1 <span
+                                        class="user__buttom__item__par__price__span">x </span> $250</div>
+                            </div>
+                            <img class="user__buttom__item__par__del" src="/maket/img/cross-circled-svgrepo-com.svg"
+                                alt="">
+                        </div>
+
+                        <div class="user__buttom__item__par">
+                            <img class="user__buttom__item__par__img" src="/maket/img/cart_img2.png" alt="">
+                            <div class="user__buttom__item__par__info">
+                                <div class="user__buttom__item__par__tit">Rebox Zane</div>
+                                <div class="user__buttom__item__par__stars">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                </div>
+                                <div class="user__buttom__item__par__price">1 <span
+                                        class="user__buttom__item__par__price__span">x </span> $250</div>
+                            </div>
+                            <img class="user__buttom__item__par__del" src="/maket/img/cross-circled-svgrepo-com.svg"
+                                alt="">
+                        </div>
+                        <div class="user__buttom__item__total__price">TOTAL <span
+                                class="user__buttom__item__total__price__span">$500.00</span></div>
+                        <button class="user__buttom__item__checkout"><a class="user__buttom__item__checkout__link"
+                                href="#">Checkout</a></button>
+                        <button class="user__buttom__item__gocart"><a class="user__buttom__item__gocart__link"
+                                href="#">Go to cart</a></button>
+                    </div>
                 </details>
                 <img class="user__img" src="/maket/img/triangle-down-svgrepo-com.svg" alt="">
             </div>
@@ -259,7 +303,7 @@
                         <div class="item-text-cont">
                             <div class="item-text">Super
                                 sale!</div>
-                            <img class="menu-box-item-img" src="/maket/img/nav-link.png" alt="">
+                            <img class="menu-box-item-img" src="./img/nav-link.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -314,81 +358,86 @@
         </div>
     </div>
     <div class="content center">
-        <img src="/maket/img/img_content.png" alt="photo" class="content__img">
+        <div class="content__block__shipping-adress__head">01. Shipping Adress
+            <div class="content__block__shipping-adress">
+                <div class="content__block__shipping-adress__left">
+                    <div class="content__block__shipping-adress__titl">Check as a guest or register</div>
+                    <p class="content__block__shipping-adress__par">Register with us for future convenience</p>
+                    <div class="content__block__shipping-adress__titl__but"><img src="/maket/img/ship_adr.png" alt=""
+                            class="content__block__shipping-adress__titl__but__img"> checkout as guest <br>
+                        <img src="/maket/img/ship_adr.png" alt=""
+                            class="content__block__shipping-adress__titl__but__img">register
+                    </div>
+                    <div class="content__block__shipping-adress__titl">register and save time!</div>
+                    <p class="content__block__shipping-adress__par">Register with us for future convenience</p>
+                    <div class="content__block__shipping-adress__par__det">
+                        <svg viewBox="0 0 15 15" fill="none" width="10px" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M6.1584 3.13508C6.35985 2.94621 6.67627 2.95642 6.86514 3.15788L10.6151 7.15788C10.7954 7.3502 10.7954 7.64949 10.6151 7.84182L6.86514 11.8418C6.67627 12.0433 6.35985 12.0535 6.1584 11.8646C5.95694 11.6757 5.94673 11.3593 6.1356 11.1579L9.565 7.49985L6.1356 3.84182C5.94673 3.64036 5.95694 3.32394 6.1584 3.13508Z"
+                                    fill="#b3b2b2"></path>
+                            </g>
+                        </svg><svg viewBox="0 0 15 15" fill="none" width="10px" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M6.1584 3.13508C6.35985 2.94621 6.67627 2.95642 6.86514 3.15788L10.6151 7.15788C10.7954 7.3502 10.7954 7.64949 10.6151 7.84182L6.86514 11.8418C6.67627 12.0433 6.35985 12.0535 6.1584 11.8646C5.95694 11.6757 5.94673 11.3593 6.1356 11.1579L9.565 7.49985L6.1356 3.84182C5.94673 3.64036 5.95694 3.32394 6.1584 3.13508Z"
+                                    fill="#b3b2b2"></path>
+                            </g>
+                        </svg> Fast and easy checkout
+                        <br>
+                        <svg viewBox="0 0 15 15" fill="none" width="10px" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M6.1584 3.13508C6.35985 2.94621 6.67627 2.95642 6.86514 3.15788L10.6151 7.15788C10.7954 7.3502 10.7954 7.64949 10.6151 7.84182L6.86514 11.8418C6.67627 12.0433 6.35985 12.0535 6.1584 11.8646C5.95694 11.6757 5.94673 11.3593 6.1356 11.1579L9.565 7.49985L6.1356 3.84182C5.94673 3.64036 5.95694 3.32394 6.1584 3.13508Z"
+                                    fill="#b3b2b2"></path>
+                            </g>
+                        </svg><svg viewBox="0 0 15 15" fill="none" width="10px" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M6.1584 3.13508C6.35985 2.94621 6.67627 2.95642 6.86514 3.15788L10.6151 7.15788C10.7954 7.3502 10.7954 7.64949 10.6151 7.84182L6.86514 11.8418C6.67627 12.0433 6.35985 12.0535 6.1584 11.8646C5.95694 11.6757 5.94673 11.3593 6.1356 11.1579L9.565 7.49985L6.1356 3.84182C5.94673 3.64036 5.95694 3.32394 6.1584 3.13508Z"
+                                    fill="#b3b2b2"></path>
+                            </g>
+                        </svg>Easy access to your order history and status
+                    </div>
+                    <button class="content__block__shipping-adress__but" type="button">Continue</button>
 
-        <div class="content__information__block">
-            <a href="#" class="content__information__block__link">WOMEN COLLECTION</a>
-            <h2 class="content__information__block__titl">Moschino Cheap And Chic</h2>
-            <p class="content__information__block__par">Compellingly actualize fully researched processes before
-                proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services.
-                Completely visualize parallel core competencies rather than exceptional portals.
-                <br>
-            </p>
-            <p>
-                <span class="content__information__block__par__span">MATERIAL:</span>
-                <span class="content__information__block__par__span__2">COTTON</span>
-                <span class="content__information__block__par__span">DESIGNER:</span>
-                <span class="content__information__block__par__span__2">BINBURHAN</span>
-            </p>
-            <p class="content__information__block__price">$561</p>
-            <div class="content__add">
-                <div class="content__charact">
-                    <div class="content__charact__titl">CHOOSE COLOR</div>
-                    <details class="content__charact__detail">
-                        <summary> Red</summary>
-                    </details>
                 </div>
-                <div class="content__charact">
-                    <div class="content__charact__titl">CHOOSE SIZE </div>
-                    <details class="content__charact__detail">
-                        <summary> XXL</summary>
-                    </details>
-                </div>
-                <div class="content__charact">
+                <div class="content__block__shipping-adress__right">
+                    <div class="content__block__shipping-adress__titl">Already registed?</div>
+                    <p class="content__block__shipping-adress__par">Please log in below</p>
+                    <div class="content__block__shipping-adress__forms">
+                        <label class="content__block__shipping-adress__forms__email" for="email">Email Adress
+                            <em>*</em></label>
+                        <input class="content__block__shipping-adress__forms__email__pl" id="email" placeholder=""
+                            required="" pattern="\S+@[a-z]+.[a-z]+">
+                        <label class="content__block__shipping-adress__forms__email"
+                            for="pass">Password<em>*</em></label>
+                        <input class="content__block__shipping-adress__forms__email__pl" type="password" id="pass"
+                            name="password" minlength="8" required />
+                        <p class="content__block__shipping-adress__forms__par">* Required Fileds</p>
 
-                    <div class="content__charact__titl">Quantity </div>
-                    <details class="content__charact__detail">
-                        <summary> 2</summary>
-                    </details>
+                    </div>
+                    <button class="content__block__shipping-adress__but" type="button">Log in
+                    </button>
+                    <a class="content__block__shipping-adress__but__link" href="#">Forgot Password ?</a>
                 </div>
-            </div>
-            <div class="content__add__but">
-                <button class="content__add__but__button" type="button">Add to Cart
-                    <img src="/maket/img/but_cart.png" alt="" class="content__add__but__img">
-                </button>
-
             </div>
         </div>
+        <div class="content__block">02. BILLING INFORMATION</div>
+        <div class="content__block">03. SHIPPING INFORMATION</div>
+        <div class="content__block">04. SHIPPING METHOD</div>
+        <div class="content__block">05. PAYMENT METHOD</div>
+        <div class="content__block">06. ORDER REVIEW</div>
     </div>
-    </div>
-    </div>
-    </div>
-    <div class="advertising center">
-        <h1 class="advertising__titl">you may like also</h1>
-        <div class="advertising__product">
-            <div class="advertising__product__card">
-                <img class="advertising__product__card__img" src="/maket/img/card1.png" alt="">
-                <p class="advertising__product__card__name">BLAZE LEGGINGS</p>
-                <p class="advertising__product__card__price">$52.00</p>
-            </div>
-            <div class="advertising__product__card">
-                <img src="/maket/img/card2.png" alt="" class="advertising__product__card__img">
-                <p class="advertising__product__card__name">ALEXA SWEATER</p>
-                <p class="advertising__product__card__price">$52.00</p>
-            </div>
-            <div class="advertising__product__card">
-                <img src="/maket/img/card3.png" alt="" class="advertising__product__card__img">
-                <p class="advertising__product__card__name">AGNES TOP</p>
-                <p class="advertising__product__card__price">$52.00</p>
-            </div>
-            <div class="advertising__product__card">
-                <img src="/maket/img/card4.png" alt="" class="advertising__product__card__img1">
-                <p class="advertising__product__card__name__span">SYLVA SWEATER</p>
-                <p class="advertising__product__card__price">$52.00</p>
-            </div>
-        </div>
-    </div>
-    <div class="subscribe">
+    <div class="subscribe ">
         <img class="subscribe__back" src="/maket/img/back.png" alt="">
         <div class="subscribe__container center">
             <article class="subscribe__pict">
@@ -466,8 +515,8 @@
             </div>
         </div>
         <section class="footer__foot">
-            <article class="footer__foot__tit center">
-                <h3 class="footer__foot__tit">© 2017 Brand All Rights Reserved.</h3>
+            <article class="footer__foot__tit">
+                <h3 class="footer__foot__tit center ">© 2017 Brand All Rights Reserved.</h3>
             </article>
             <article class="footer__foot__logo center">
                 <a class="footer__foot__brand" href="#"> <img class="footer__foot__brand"
