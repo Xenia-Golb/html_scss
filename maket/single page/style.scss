@@ -149,14 +149,14 @@
 
 .advertising {
     // position: absolute;
-    // margin-top: 600px;
+    z-index: 4;
+    margin-top: 700px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 
     &__titl {
-
         font-size: 24px;
         line-height: 20px;
         font-weight: 900;
