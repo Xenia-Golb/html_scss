@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header center>
+        <div class="header__left ">
+            <img class="header__left__logo" src="/maket/img/header__logo.svg" alt="logo">
+            <div class="logo__brand">
+                <a class="header__brand" href="#">BRAN <span class="span_d">D</span> </a>
+            </div>
+            <div class="header__left__browse">
+                <img class="header__left__browse__svg" src="/maket/img/triangle-down-svgrepo-com — копия.svg"
+                    width="15px" alt="">
+                <details>
+                    <summary class="browse__buttom">Browse</summary>
+                    <div class="browse__buttom__box">
+                        <h3 class="browse__buttom__box__tit">Women</h3>
+                        <a href="#" class="browse__buttom__box__link"> Dresses</a>
+                        <a href="#" class="browse__buttom__box__link">Tops</a>
+                        <a href="#" class="browse__buttom__box__link">Sweaters/Knits</a>
+                        <a href="#" class="browse__buttom__box__link">Jackets/Coats</a>
+                        <a href="#" class="browse__buttom__box__link">Blazers</a>
+                        <a href="#" class="browse__buttom__box__link">Denim</a>
+                        <a href="#" class="browse__buttom__box__link">Leggings/Pants</a>
+                        <a href="#" class="browse__buttom__box__link">Skirts/Shorts</a>
+                        <a href="#" class="browse__buttom__box__link">Accessories</a>
+                        <h3 class="browse__buttom__box__tit">Men</h3>
+                        <a href="#" class="browse__buttom__box__link"> Tees/Tank tops</a>
+                        <a href="#" class="browse__buttom__box__link">Shirts/Polos</a>
+                        <a href="#" class="browse__buttom__box__link">Sweaters</a>
+                        <a href="#" class="browse__buttom__box__link">Sweatshirts/Hoodies</a>
+                        <a href="#" class="browse__buttom__box__link">Blazers</a>
+                        <a href="#" class="browse__buttom__box__link">Jackets/vests</a>
+                    </div>
+                </details>
+            </div>
+
+            <div class="header__search">
+                <form class="search">
+                    <input type="text" name="text" class="search" placeholder="Search for item... ">
+                    <!-- <input type="submit" name="submit" class="submit" value="Browse"> -->
+                </form>
+                <img class="header__search-img" src="/maket/img/magnifying glass.svg" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="header__right">
+            <img class="shopping_bag" src="./img/shopping_bag.jpg" alt="">
+            <div class="user">
+                <details>
+                    <summary class="user__buttom">My Account </summary>
+                    <div class="user__buttom__item">
+
+                        <div class="user__buttom__item__par">
+                            <img class="user__buttom__item__par__img" src="/maket/img/cart-img.png" alt="">
+                            <div class="user__buttom__item__par__info">
+                                <div class="user__buttom__item__par__tit">Rebox Zane</div>
+                                <div class="user__buttom__item__par__stars">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                </div>
+                                <div class="user__buttom__item__par__price">1 <span
+                                        class="user__buttom__item__par__price__span">x </span> $250</div>
+                            </div>
+                            <img class="user__buttom__item__par__del" src="/maket/img/cross-circled-svgrepo-com.svg"
+                                alt="">
+                        </div>
+
+                        <div class="user__buttom__item__par">
+                            <img class="user__buttom__item__par__img" src="/maket/img/cart_img2.png" alt="">
+                            <div class="user__buttom__item__par__info">
+                                <div class="user__buttom__item__par__tit">Rebox Zane</div>
+                                <div class="user__buttom__item__par__stars">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                    <img class="user__buttom__item__par__stars__img" src="/maket/img/stars.svg" alt="">
+                                </div>
+                                <div class="user__buttom__item__par__price">1 <span
+                                        class="user__buttom__item__par__price__span">x </span> $250</div>
+                            </div>
+                            <img class="user__buttom__item__par__del" src="/maket/img/cross-circled-svgrepo-com.svg"
+                                alt="">
+                        </div>
+                        <div class="user__buttom__item__total__price">TOTAL <span
+                                class="user__buttom__item__total__price__span">$500.00</span></div>
+                        <button class="user__buttom__item__checkout"><a class="user__buttom__item__checkout__link"
+                                href="#">Checkout</a></button>
+                        <button class="user__buttom__item__gocart"><a class="user__buttom__item__gocart__link"
+                                href="#">Go to cart</a></button>
+                    </div>
+                </details>
+                <img class="user__img" src="/maket/img/triangle-down-svgrepo-com.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul class="nav_top">
+            <li class="nav_top_link" href="#">Home</a>
+            <li class="nav_top_link"  href="#">Man</a>
+                <div class="menu-box">
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <a href="#" class="item-link">Blazers</a>
+                        <a href="#" class="item-link">Denim</a>
+                        <a href="#" class="item-link">Leggings/Pants</a>
+                        <a href="#" class="item-link">Skirts/Shorts</a>
+                        <a href="#" class="item-link">Accessories</a>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <div class="item-text-cont">
+                            <div class="item-text">Super
+                                sale!</div>
+                            <img class="menu-box-item-img" src="/maket/img/nav-link.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            <li class="nav_top_link"  href="#">Women</a>
+                <div class="menu-box">
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <a href="#" class="item-link">Blazers</a>
+                        <a href="#" class="item-link">Denim</a>
+                        <a href="#" class="item-link">Leggings/Pants</a>
+                        <a href="#" class="item-link">Skirts/Shorts</a>
+                        <a href="#" class="item-link">Accessories</a>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <div class="item-text-cont">
+                            <div class="item-text">Super
+                                sale!</div>
+                            <img class="menu-box-item-img" src="/maket/img/nav-link.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            <li class="nav_top_link"  href="#">Kids</a>
+                <div class="menu-box">
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <a href="#" class="item-link">Blazers</a>
+                        <a href="#" class="item-link">Denim</a>
+                        <a href="#" class="item-link">Leggings/Pants</a>
+                        <a href="#" class="item-link">Skirts/Shorts</a>
+                        <a href="#" class="item-link">Accessories</a>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <div class="item-text-cont">
+                            <div class="item-text">Super
+                                sale!</div>
+                            <img class="menu-box-item-img" src="/maket/img/nav-link.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            <li class="nav_top_link"  href="#">Accoseriese</a>
+                <div class="menu-box">
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <a href="#" class="item-link">Blazers</a>
+                        <a href="#" class="item-link">Denim</a>
+                        <a href="#" class="item-link">Leggings/Pants</a>
+                        <a href="#" class="item-link">Skirts/Shorts</a>
+                        <a href="#" class="item-link">Accessories</a>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <div class="item-text-cont">
+                            <div class="item-text">Super
+                                sale!</div>
+                            <img class="menu-box-item-img" src="/maket/img/nav-link.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            <li class="nav_top_link last"  href="#">Featured</a>
+                <div class="menu-box">
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <a href="#" class="item-link">Blazers</a>
+                        <a href="#" class="item-link">Denim</a>
+                        <a href="#" class="item-link">Leggings/Pants</a>
+                        <a href="#" class="item-link">Skirts/Shorts</a>
+                        <a href="#" class="item-link">Accessories</a>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <div class="item-text-cont">
+                            <div class="item-text">Super
+                                sale!</div>
+                            <img class="menu-box-item-img" src="./img/nav-link.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            <li class="nav_top_link last"  href="#">Hot Deals</a>
+                <div class="menu-box">
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <a href="#" class="item-link">Blazers</a>
+                        <a href="#" class="item-link">Denim</a>
+                        <a href="#" class="item-link">Leggings/Pants</a>
+                        <a href="#" class="item-link">Skirts/Shorts</a>
+                        <a href="#" class="item-link">Accessories</a>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="menu-box-titl">Women</h3>
+                        <a href="#" class="item-link"> Dresses</a>
+                        <a href="#" class="item-link">Tops</a>
+                        <a href="#" class="item-link">Sweaters/Knits</a>
+                        <a href="#" class="item-link">Jackets/Coats</a>
+                        <div class="item-text-cont">
+                            <div class="item-text">Super
+                                sale!</div>
+                            <img class="menu-box-item-img" src="/maket/img/nav-link.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+        </ul>
+    </nav>
+    <div class="bread__crumb center">
+        <h1 class="bread__crumb__titl">New Arrivals</h1>
+        <div class="bread__crumb__nav">
+            <a href="#" class="bread__crumb__link">Home / </a>
+            <a href="#" class="bread__crumb__link">Men /</a>
+            <a href="#" class="bread__crumb__link__span">New Arrivals</a>
+        </div>
+    </div>
+    <div class="content center">
+        <div class="category">
+            <details>
+                <summary class="category__tit">
+                    Category
+                    <svg class="category__tit__svg" viewBox="0 0 20 20" width="15px" xmlns="http://www.w3.org/2000/svg"
+                        fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path fill=": #6f6e6e;"
+                                d="M17.7039765,6.58022575 L10.7321242,14.6656665 C10.3481323,15.1114445 9.65348035,15.1114445 9.26948848,14.6656665 L2.29630288,6.58022575 C1.76031423,5.96013716 1.96697652,5 2.79095906,5 L17.2106536,5 C18.0319695,5 18.2399651,5.96013716 17.7039765,6.58022575 Z">
+                            </path>
+                        </g>
+                    </svg>
+                </summary>
+                <div class="category__box">
+                    <a href="#" class="category__box__link">Accessories</a>
+                    <a href="#" class="category__box__link">Bags</a>
+                    <a href="#" class="category__box__link">Denim</a>
+                    <a href="#" class="category__box__link">Hoodies & Sweatshirts</a>
+                    <a href="#" class="category__box__link">Jackets & Coats</a>
+                    <a href="#" class="category__box__link">Pants</a>
+                    <a href="#" class="category__box__link">Polos</a>
+                    <a href="#" class="category__box__link">Shirts</a>
+                    <a href="#" class="category__box__link">Shoes</a>
+                    <a href="#" class="category__box__link">Shorts</a>
+                    <a href="#" class="category__box__link">Sweaters & Knits</a>
+                    <a href="#" class="category__box__link">T-Shirts</a>
+                    <a href="#" class="category__box__link">Tanks</a>
+                </div>
+            </details>
+            <details>
+                <summary class="category__tit">BRAND
+                    <svg class="category__tit__svg" viewBox="0 0 20 20" width="15px" xmlns="http://www.w3.org/2000/svg"
+                        fill="#000000" click="fill: #f16d7f
+                        transform: rotate(180deg)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path fill=": #6f6e6e;"
+                                d="M17.7039765,6.58022575 L10.7321242,14.6656665 C10.3481323,15.1114445 9.65348035,15.1114445 9.26948848,14.6656665 L2.29630288,6.58022575 C1.76031423,5.96013716 1.96697652,5 2.79095906,5 L17.2106536,5 C18.0319695,5 18.2399651,5.96013716 17.7039765,6.58022575 Z">
+                            </path>
+                        </g>
+                    </svg>
+                </summary>
+            </details>
+            <details>
+                <summary class="category__tit">dESIGNER
+                    <svg class="category__tit__svg" viewBox="0 0 20 20" width="15px" xmlns="http://www.w3.org/2000/svg"
+                        fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path fill=": #6f6e6e;"
+                                d="M17.7039765,6.58022575 L10.7321242,14.6656665 C10.3481323,15.1114445 9.65348035,15.1114445 9.26948848,14.6656665 L2.29630288,6.58022575 C1.76031423,5.96013716 1.96697652,5 2.79095906,5 L17.2106536,5 C18.0319695,5 18.2399651,5.96013716 17.7039765,6.58022575 Z">
+                            </path>
+                        </g>
+                    </svg>
+                </summary>
+            </details>
+        </div>
+        <div class="product">
+            <div class="product__block__top">
+                <div class="product__block__top_col">Trending now
+                    <p class="product__block__top_col_par">Bohemian | Floral | Lace <br>
+                        Floral | Lace | Bohemian</p>
+                </div>
+                <div class="product__block__top_col">Size
+                    <div class="product__block__top_col_size">
+                        <div class="product__block__top_col_size__item">
+                            <svg fill="#ebebeb" viewBox="0 0 32 32" width="10px" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" stroke="#ebebeb">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>square</title>
+                                    <path d="M0.75 0.75v30.5h30.5v-30.5zM28.75 28.75h-25.5v-25.5h25.5z"></path>
+                                </g>
+                            </svg> XXS
+                        </div>
+                        <div class="product__block__top_col_size__item">
+                            <svg fill="#ebebeb" viewBox="0 0 32 32" width="10px" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" stroke="#ebebeb">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>square</title>
+                                    <path d="M0.75 0.75v30.5h30.5v-30.5zM28.75 28.75h-25.5v-25.5h25.5z"></path>
+                                </g>
+                            </svg>XS
+                        </div>
+                        <div class="product__block__top_col_size__item"><svg fill="#ebebeb" viewBox="0 0 32 32"
+                                width="10px" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ebebeb">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>square</title>
+                                    <path d="M0.75 0.75v30.5h30.5v-30.5zM28.75 28.75h-25.5v-25.5h25.5z"></path>
+                                </g>
+                            </svg>S</div>
+                        <div class="product__block__top_col_size__item"><svg fill="#ebebeb" viewBox="0 0 32 32"
+                                width="10px" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ebebeb">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>square</title>
+                                    <path d="M0.75 0.75v30.5h30.5v-30.5zM28.75 28.75h-25.5v-25.5h25.5z"></path>
+                                </g>
+                            </svg>M</div>
+                        <div class="product__block__top_col_size__item"><svg fill="#ebebeb" viewBox="0 0 32 32"
+                                width="10px" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ebebeb">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>square</title>
+                                    <path d="M0.75 0.75v30.5h30.5v-30.5zM28.75 28.75h-25.5v-25.5h25.5z"></path>
+                                </g>
+                            </svg>L</div>
+                        <div class="product__block__top_col_size__item"><svg fill="#ebebeb" viewBox="0 0 32 32"
+                                width="10px" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ebebeb">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>square</title>
+                                    <path d="M0.75 0.75v30.5h30.5v-30.5zM28.75 28.75h-25.5v-25.5h25.5z"></path>
+                                </g>
+                            </svg>XL</div>
+                        <div class="product__block__top_col_size__item"><svg fill="#ebebeb" viewBox="0 0 32 32"
+                                width="10px" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ebebeb">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>square</title>
+                                    <path d="M0.75 0.75v30.5h30.5v-30.5zM28.75 28.75h-25.5v-25.5h25.5z"></path>
+                                </g>
+                            </svg>XXL</div>
+                    </div>
+                </div>
+                <div class="product__block__top_col_range">pRICE
+                    <input id="range" type="range" value="400" step="0.1">
+                    <div class="product__block__top_col_range_block">
+                        <p class="product__block__top_col_range_par"> $52 </p>
+                        <p class="product__block__top_col_range_par"> $400 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="product__block__top_line">
+                <div class="product__block__top_line__block">
+                    <div class="product__block__top_line__block__left">Sort By</div>
+                    <div class="product__block__top_line__block__right">Name
+                        <!-- <svg class="category__tit__svg"
+                            viewBox="0 0 20 20" width="10px" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill=": #6f6e6e;"
+                                    d="M17.7039765,6.58022575 L10.7321242,14.6656665 C10.3481323,15.1114445 9.65348035,15.1114445 9.26948848,14.6656665 L2.29630288,6.58022575 C1.76031423,5.96013716 1.96697652,5 2.79095906,5 L17.2106536,5 C18.0319695,5 18.2399651,5.96013716 17.7039765,6.58022575 Z">
+                                </path>
+                            </g>
+                        </svg> -->
+                    </div>
+                </div>
+                <div class="product__block__top_line__block">
+                    <div class="product__block__top_line__block__left">Show</div>
+                    <div class="product__block__top_line__block__right">09
+                        <!-- <svg class="category__tit__svg"
+                            viewBox="0 0 20 20" width="10px" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill=": #6f6e6e;"
+                                    d="M17.7039765,6.58022575 L10.7321242,14.6656665 C10.3481323,15.1114445 9.65348035,15.1114445 9.26948848,14.6656665 L2.29630288,6.58022575 C1.76031423,5.96013716 1.96697652,5 2.79095906,5 L17.2106536,5 C18.0319695,5 18.2399651,5.96013716 17.7039765,6.58022575 Z">
+                                </path>
+                            </g>
+                        </svg> -->
+                    </div>
+                </div>
+
+            </div>
+            <div class="catalog__card">
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <img class="catalog__img" src="/maket/img/product_card1.png" alt="">
+                        <h5 class="catalog__tit__card"> Mango People T-shirt</h5>
+                        <p class="catalog__price">$52.00</p>
+                    </div>
+                </a>
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <img class="catalog__img" src="/maket/img/product_card2.png" alt="">
+                        <h5 class="catalog__tit__card">Mango People T-shirt</h5>
+                        <p class="catalog__price">$52.00</p>
+                    </div>
+                </a>
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <img class="catalog__img" src="/maket/img/c3.jpg" alt="">
+                        <h5 class="catalog__tit__card">Mango People T-shirt</h5>
+                        <p class="catalog__price">$52.00</p>
+                    </div>
+                </a>
+
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <img class="catalog__img" src="/maket/img/product_card4.png" alt="">
+                        <h5 class="catalog__tit__card">Mango People T-shirt</h5>
+                        <p class="catalog__price">$52.00</p>
+                    </div>
+                </a>
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <img class="catalog__img" src="/maket/img/product_card5.png" alt="">
+                        <h5 class="catalog__tit__card">Mango People T-shirt</h5>
+                        <p class="catalog__price">$52.00</p>
+                    </div>
+                </a>
+
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <img class="catalog__img" src="/maket/img/product_card6.png" alt="">
+                        <h5 class="catalog__tit__card">Mango People T-shirt</h5>
+                        <p class="catalog__price">$52.00</p>
+                    </div>
+                </a>
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <img class="catalog__img" src="/maket/img/product_card7.png" alt="">
+                        <h5 class="catalog__tit__card">Mango People T-shirt</h5>
+                        <p class="catalog__price">$52.00</p>
+                    </div>
+                </a>
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <img class="catalog__img" src="/maket/img/product_card8.png" alt="">
+                        <h5 class="catalog__tit__card">Mango People T-shirt</h5>
+                        <p class="catalog__price">$52.00</p>
+                    </div>
+                </a>
+                <a class="card-link" href="#">
+                    <div class="card">
+                        <img class="catalog__img" src="/maket/img/card9.png" alt="">
+                        <h5 class="catalog__tit__card">Mango People T-shirt</h5>
+                        <p class="catalog__price">$52.00</p>
+                    </div>
+                </a>
+            </div>
+            <div class="catalog__bot">
+                <div class="catalog__bot__numbers"><svg class="catalog__bot__numbers__svg" fill="#aaaaaa" version="1.1"
+                        id="svg_num" width="15px" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" xml:space="preserve">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <style type="text/css">
+                                .st0 {
+                                    fill: none;
+                                }
+                            </style>
+                            <path d="M29.6,4.6l-18,18L10.2,24l1.4,1.4l18,18l2.9-2.9L15.9,24L32.4,7.4L29.6,4.6z"></path>
+                            <rect class="st0" width="48" height="48"></rect>
+                            <rect class="st0" width="48" height="48"></rect>
+                            <rect x="12" y="12" class="st0" width="24" height="24"></rect>
+                        </g>
+                    </svg> <span>1 </span> 2 3 4 5 6.....20 <svg class="catalog__bot__numbers__svg2" fill="#aaaaaa"
+                        version="1.1" id="svg_num2" width="15px" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" xml:space="preserve">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <style type="text/css">
+                                .st0 {
+                                    fill: none;
+                                }
+                            </style>
+                            <path d="M29.6,4.6l-18,18L10.2,24l1.4,1.4l18,18l2.9-2.9L15.9,24L32.4,7.4L29.6,4.6z"></path>
+                            <rect class="st0" width="48" height="48"></rect>
+                            <rect class="st0" width="48" height="48"></rect>
+                            <rect x="12" y="12" class="st0" width="24" height="24"></rect>
+                        </g>
+                    </svg>
+                </div>
+                <button class="catalog__bot__but" type="button">View All</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="content__bottom__right">
+        <div class="content__bottom__block">
+            <img class="content__bottom__right__img" src="/maket/img/f1.png" alt="logo">
+            <h3 class="content__bottom__right__tit">Free Delivery</h3>
+            <p class="content__bottom__right__par">Worldwide delivery on all. Authorit tively morph next-generation
+                innov tion
+                with
+                extensive models.
+            </p>
+        </div>
+        <div class="content__bottom__block">
+            <img class="content__bottom__right__img" src="/maket/img/f2.png" alt="logo">
+            <h3 class="content__bottom__right__tit">Sales & discounts</h3>
+            <p class="content__bottom__right__par">Worldwide delivery on all. Authorit tively morph next-generation
+                innov tion
+                with
+                extensive models.
+            </p>
+        </div>
+        <div class="content__bottom__block">
+            <img class="content__bottom__right__img" src="/maket/img/forma3.png" alt="logo">
+            <h3 class="content__bottom__right__tit">Quality assurance</h3>
+            <p class="content__bottom__right__par">Worldwide delivery on all. Authorit tively morph next-generation
+                innov tion
+                with
+                extensive models.
+            </p>
+        </div>
+    </div>
+    <div class="subscribe">
+        <img class="subscribe__back" src="/maket/img/back.png" alt="">
+        <div class="subscribe__container center">
+            <article class="subscribe__pict">
+                <img class="subscribe__pict__img" src="/maket/img/Intersect.png" alt="photo">
+                <p class="subscribe__pict__par">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                <p class="subscribe__pict__par__bot">Bin Burhan
+                    <br>
+                    <span class="subscribe__pict__par__bot__span">Dhaka, Bd </span>
+                </p>
+            </article>
+            <article class="subscribe__form center">
+                <h2 class="subscribe__form__tit">SUBSCRIBE
+                </h2>
+                <p class="subscribe__form__par">FOR OUR NEWLETTER AND PROMOTION</p>
+                <form action="email" class="email">
+                    <button class="email__but" type="Email">Enter Your Email</button>
+                    <button class="subscribe__but" type="submit">Subscribe</button>
+                </form>
+            </article>
+        </div>
+
+    </div>
+    <footer class="footer ">
+
+        <div class="footer__header center">
+            <div class="footer__container">
+                <article class="footer__logo">
+                    <img class="footer__logo__img" src="/maket/img/header__logo.svg" alt="">
+                    <h3 class="footer__logo__tit"></h3>
+                    <div class="logo_brand_foot">
+                        <a class="footer__brang__logo" href="#">BRAN <span class="span_d">D</span> </a>
+
+                        <p class="footer__logo__par">
+                            Objectively transition extensive data rather than cross functional solutions. Monotonectally
+                            syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an
+                            expanded
+                            array of processes and cross-unit partnerships.</p>
+
+                        <p class="footer__logo__par"><br> Efficiently plagiarize 24/365 action items and focused
+                            infomediaries.
+                            Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+
+                        </p>
+
+                </article>
+
+
+                <article class="footer__nav">
+                    <article class="footer__nav__company">
+                        <div class="footer__nav__company__tit">COMPANY</div>
+                        <a class="footer__nav__link" href="#">Home</a>
+                        <a class="footer__nav__link" href="#">Shop</a>
+                        <a class="footer__nav__link" href="#">About</a>
+                        <a class="footer__nav__link" href="#">How it works</a>
+                        <a class="footer__nav__link" href="#">Contact</a>
+                    </article>
+                    <article class="footer__nav__information">
+                        <div class="footer__nav__information__tit">INFORMATION</div>
+                        <a class="footer__nav__link" href="#">Tearms & Condition</a>
+                        <a class="footer__nav__link" href="#">Privacy Policy</a>
+                        <a class="footer__nav__link" href="#">How to Buy</a>
+                        <a class="footer__nav__link" href="#">How to Sell</a>
+                        <a class="footer__nav__link" href="#">Promotion</a>
+                    </article>
+                    <article class="footer__nav__shop__category">
+                        <div class="footer__nav__shop__category__tit">SHOP CATEGORY</div>
+                        <a class="footer__nav__link" href="#">Men</a>
+                        <a class="footer__nav__link" href="#">Women</a>
+                        <a class="footer__nav__link" href="#">Child</a>
+                        <a class="footer__nav__link" href="#">Apparel</a>
+                        <a class="footer__nav__link" href="#">Brows All</a>
+                    </article>
+                </article>
+            </div>
+        </div>
+        <section class="footer__foot">
+            <article class="footer__foot__tit">
+                <h3 class="footer__foot__tit center ">© 2017 Brand All Rights Reserved.</h3>
+            </article>
+            <article class="footer__foot__logo center">
+                <a class="footer__foot__brand" href="#"> <img class="footer__foot__brand"
+                        src="/maket/img/facebook-f-brands (3) 1.svg " alt=""></a>
+                <a class="footer__foot__brand" href="#"> <img class="footer__foot__brand"
+                        src="/maket/img/instagram-brands 1.svg" alt=""></a>
+                <a class="footer__foot__brand" href="#"> <img class="footer__foot__brand"
+                        src="/maket/img/pinterest-p-brands 1.svg" alt=""></a>
+                <a class="footer__foot__brand" href="#"> <img class="footer__foot__brand"
+                        src="/maket/img/twitter-brands 1.svg" alt=""></a>
+            </article>
+        </section>
+    </footer>
+
+</body>
+
+</html>
