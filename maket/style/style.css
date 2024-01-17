@@ -185,9 +185,9 @@
 }
 .content__bottom__img {
   position: relative;
-  width: 700px;
+  width: 767px;
   height: 529px;
-  opacity: 50%;
+  opacity: 100%;
 }
 .content__bottom__text {
   font-size: 53.7px;

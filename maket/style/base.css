@@ -83,7 +83,6 @@ header____search-img {
   height: 15px;
   position: absolute;
   padding-top: 3px;
-  padding-left: 25px;
 }
 .header__left__search {
   display: flex;
@@ -825,4 +824,16 @@ span__subscribe_pict__par__bot {
   background-color: #f16d7f;
   border: 2px solid #f16d7f;
   fill: #c0c0c0;
+}
+
+.subscribe__pict > p {
+  color: green;
+}
+
+.footer__logo p {
+  color: blue;
+}
+
+a {
+  color: pink !important;
 }/*# sourceMappingURL=base.css.map */
