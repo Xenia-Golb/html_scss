@@ -8,6 +8,10 @@
   padding-right: calc(50% - 570px);
 }
 
+body {
+  font-family: Lato;
+}
+
 a {
   text-decoration: none;
   color: #898989;
