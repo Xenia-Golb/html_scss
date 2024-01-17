@@ -1,4 +1,4 @@
-@import "base.css";
+@import "/maket/style/base.css";
 .content__welcome {
   display: grid;
   align-items: center;
@@ -81,31 +81,23 @@
 .catalog__card {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(4, 240px);
+  grid-template-columns: repeat(8, 140px);
   grid-template-rows: repeat(2, 360px);
-  gap: 60px;
+  gap: 0px;
+  justify-items: end;
   align-items: start;
-  justify-items: center;
   justify-content: center;
-}
-.catalog__card__but {
-  display: block;
-  z-index: 5;
-  text-decoration: none;
-  position: absolute;
-  width: 123px;
-  height: 39px;
-  background-image: url("./img/c1.png");
-  block-size: cover;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #ffffff;
   border: 1px solid #ffffff;
-  margin-bottom: 50px;
 }
-.catalog__card__but__link {
+.catalog__card-link {
   font-size: 13px;
   line-height: 1.2;
   font-weight: 700;
   color: #ffffff;
+}
+.catalog__card-link:hover {
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
 .catalog__tit__card {
   font-size: 13px;
@@ -113,7 +105,8 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #222222;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
 }
 .catalog__img {
   width: 261px;
@@ -122,15 +115,52 @@
   position: relative;
   z-index: 3;
 }
-.catalog__img:hover {
-  filter: brightness(0.4);
-}
 .catalog__price {
+  padding-left: 10px;
   font-size: 16px;
   line-height: 1.2;
   font-weight: 700;
   text-transform: uppercase;
   color: #f16d7f;
+  padding-bottom: 10px;
+}
+
+.card {
+  position: relative;
+}
+.card__but {
+  opacity: 1%;
+  z-index: 5;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 30%;
+  width: 123px;
+  height: 45px;
+  padding-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #ffffff;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+.card__but__img {
+  width: 23px;
+  height: 22px;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+.card__but__link {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.card__but:hover {
+  transition: 2ms;
+  opacity: 100%;
+  background-color: rgba(58, 56, 56, 0.83);
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
 
 .bottom__link {
