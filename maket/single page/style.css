@@ -7,6 +7,7 @@
   margin-bottom: 119px;
 }
 .content__img {
+  z-index: -1;
   width: 597px;
   height: 724px;
 }
