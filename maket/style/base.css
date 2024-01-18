@@ -635,6 +635,10 @@ span__subscribe_pict__par__bot {
   align-items: flex-end;
   justify-content: center;
 }
+.subscribe__pict::after {
+  content: url("/maket/img/line2.png");
+  margin-right: 5em;
+}
 .subscribe__pict__par {
   text-align: justify;
   font-size: 16px;

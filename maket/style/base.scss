@@ -30,6 +30,12 @@ li {
     color: #898989;
 }
 
+// hr {
+//     width: 38px;
+//     width: 38px;
+//     border: 2px solid #d6d6d6;
+// }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -712,6 +718,11 @@ span {
         align-items: flex-end;
         justify-content: center;
 
+        &::after {
+            content: url("/maket/img/line2.png");
+            margin-right: 5em;
+        }
+
         &__par {
             text-align: justify;
             font-size: 16px;
@@ -737,6 +748,7 @@ span {
                 font-weight: 700;
                 letter-spacing: 0.025em;
                 color: #f16d7f;
+
 
                 &__span {
                     margin-top: -10px;
@@ -770,7 +782,6 @@ span {
         }
 
         &__par {
-
             padding-left: 30px;
             padding-bottom: 20px;
         }
