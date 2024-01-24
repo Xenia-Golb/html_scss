@@ -1,5 +1,10 @@
-@import "/maket/style/base.css";
+@import "../style/base.css";
 $colorSpan: #f16d7f;
+
+* {
+    box-sizing: content-box;
+}
+
 
 .content {
     display: flex;
@@ -349,6 +354,50 @@ $colorSpan: #f16d7f;
             width: 320px;
         }
     }
+}
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .content {
+        width: 100vw;
+        min-height: 100vh;
+        justify-content: center;
+        gap: 40px;
+    }
 
+    .product__block__top {
+        margin-top: 20px;
+        display: flex;
+        // gap: 87px;
+        row-gap: 20px;
+        column-gap: 87px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+        justify-content: center;
+
+        &_line {
+            justify-content: center;
+        }
+    }
+
+    .catalog {
+        &__card {
+            grid-template-columns: repeat(2, 230px);
+            grid-template-rows: repeat(4, 340px);
+        }
+
+        &__bot {
+            justify-content: center;
+        }
+    }
+
+    .content__bottom__right {
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .content__bottom__block {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
 }

@@ -1,4 +1,8 @@
-@import "/maket/style/base.css";
+@import "/course2/maket/style/base.css";
+* {
+  box-sizing: content-box;
+}
+
 .product {
   margin-top: 90px;
 }
@@ -116,6 +120,7 @@
 .product__forms {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
   gap: 30px;
@@ -230,4 +235,27 @@
   text-transform: uppercase;
   color: #ffffff;
   border: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .product {
+    padding: 10px;
+    width: 100vw;
+  }
+  .product__details__block {
+    padding-right: 0;
+  }
+  .product__line {
+    gap: 39px;
+  }
+  .product__tit__top {
+    justify-content: center;
+    gap: 38px;
+  }
+  .product__button {
+    justify-content: center;
+  }
+  .product__forms {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=shop cart.css.map */

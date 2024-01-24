@@ -1,4 +1,8 @@
-@import "/maket/style/base.css";
+@import "/course2/maket/style/base.css";
+* {
+  box-sizing: content-box;
+}
+
 .content {
   display: flex;
   flex-direction: column;

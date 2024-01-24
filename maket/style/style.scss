@@ -1,4 +1,4 @@
-@import "/maket/style/base.css";
+@import "/course2/maket/style/base.css";
 $colorSpan: #f16d7f;
 
 .content__welcome {
@@ -264,7 +264,7 @@ $colorSpan: #f16d7f;
 
         &__img {
             padding-left: 20px;
-            width: 45px;
+            width: 63px;
             height: 45px;
 
         }
@@ -295,11 +295,77 @@ $colorSpan: #f16d7f;
     }
 
     &__left {
-        background-image: url("/maket/img/back_girl.png");
+        background-image: url("/course2/maket/img/back_girl.png");
         width: 50%;
         background-size: cover;
         padding-right: 10%;
 
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .content__welcome {
+        padding: 10vh;
+        justify-content: center;
+        padding: 2%;
+        min-width: 100vw;
+
+        &__img {
+            height: 60vh;
+            width: 100vw;
+        }
+
+        &__text {
+            font-size: 43px;
+            border-left: 13px solid #f16d7f;
+        }
+    }
+
+    .sale__card {
+        margin-top: 50px;
+        display: flex;
+        gap: 30px;
+        position: relative;
+        margin-bottom: 100px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .catalog {
+        width: 100vw;
+
+        &__card {
+            grid-template-columns: repeat(4, 140px);
+        }
+    }
+
+    .content__bottom {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: center;
+
+        &__left {
+            background-image: url(/course2/maket/img/back_girl.png);
+            width: 87%;
+            background-size: cover;
+            padding-right: 10%;
+        }
+
+        &__text {
+            margin-top: -178px;
+            font-size: 46.7px;
+        }
+
+        &__right {
+            width: 87%;
+            height: 401px;
+        }
     }
 
 }

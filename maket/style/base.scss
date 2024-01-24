@@ -3,6 +3,7 @@ $colorSpan: #f16d7f;
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .center {
@@ -29,12 +30,6 @@ li {
     list-style: none;
     color: #898989;
 }
-
-// hr {
-//     width: 38px;
-//     width: 38px;
-//     border: 2px solid #d6d6d6;
-// }
 
 header {
     display: flex;
@@ -697,7 +692,7 @@ span {
     position: relative;
 
     &::before {
-        content: url("/maket/img/back.png");
+        content: url("/course2/maket/img/back.png");
         position: absolute;
         opacity: 40%;
         z-index: -1;
@@ -719,7 +714,7 @@ span {
         justify-content: center;
 
         &::after {
-            content: url("/maket/img/line2.png");
+            content: url("/course2//maket/img/line2.png");
             margin-right: 5em;
         }
 
@@ -735,7 +730,7 @@ span {
             width: 300px;
 
             &::before {
-                content: url('/maket/img/Intersect.png');
+                content: url('/course2/maket/img/Intersect.png');
             }
 
             &__bot {
@@ -934,7 +929,6 @@ span {
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-end;
-        padding-bottom: 50px;
 
         &__tit {
             // padding-top: 20px;
@@ -971,5 +965,152 @@ span {
 
 
     }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .center {
+        padding-left: calc(50% - 400px);
+        padding-right: calc(50% - 400px);
+    }
+
+    header {
+        width: 100vw;
+        min-height: 10vh;
+        flex-wrap: wrap;
+
+        .browse__buttom {
+            display: none;
+        }
+
+        .search {
+            width: 105px;
+            height: 33px;
+            background-color: #ffffff;
+            border: 1px solid #e6e6e6;
+            border-radius: 0px 3px 3px 0px;
+            text-align: center;
+        }
+
+        .header__search-img {
+            width: 25px;
+            height: 20px;
+            padding-top: 10px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .header__left {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding-left: 140px;
+            justify-content: flex-start;
+        }
+
+        .user__buttom {
+            display: none;
+        }
+    }
+
+    nav {
+        width: 100vw;
+        font-size: 10px;
+        min-height: 74px;
+
+        .nav_top {
+            gap: 21px;
+        }
+    }
+
+    .bread__crumb {
+        width: 100vw;
+        height: 148px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .subscribe {
+        width: 100vw;
+        height: 68vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: center;
+
+        &__pict {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .footer {
+        width: 100vw;
+        height: 50vh;
+        margin-top: 0;
+        text-align: start;
+        padding-left: 10px;
+
+        .footer__container {
+            display: flex;
+            justify-content: flex-end;
+            padding-bottom: 50px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: stretch;
+            align-items: center;
+            gap: 30px;
+            padding-left: 30px;
+        }
+
+        .footer__logo__par {
+            width: 481px;
+            text-align: justify;
+            font-size: 11px;
+            line-height: 22px;
+            font-weight: 300;
+            letter-spacing: 0.025em;
+            color: #898989;
+        }
+
+        .footer__nav {
+            margin-top: -20px;
+            display: flex;
+            gap: 21px;
+            flex-wrap: wrap;
+
+            &__link {
+                font-size: 13px;
+            }
+        }
+
+        .footer__nav__company__tit {
+            font-size: 13px;
+            line-height: 23px;
+            font-weight: 700;
+        }
+
+        .footer__nav__information__tit {
+            font-size: 13px;
+            line-height: 23px;
+            font-weight: 700;
+        }
+
+        .footer__nav__shop__category__tit {
+            font-size: 13px;
+            line-height: 23px;
+            font-weight: 700;
+        }
+
+    }
+
 
 }

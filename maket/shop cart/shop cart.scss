@@ -1,6 +1,10 @@
-@import "/maket/style/base.css";
+@import "/course2/maket/style/base.css";
 
 $colorSpan: #f16d7f;
+
+* {
+    box-sizing: content-box;
+}
 
 .product {
     margin-top: 90px;
@@ -148,6 +152,7 @@ $colorSpan: #f16d7f;
     &__forms {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: baseline;
         gap: 30px;
@@ -283,6 +288,34 @@ $colorSpan: #f16d7f;
                 border: none;
 
             }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .product {
+        padding: 10px;
+        width: 100vw;
+
+        &__details__block {
+            padding-right: 0;
+        }
+
+        &__line {
+            gap: 39px;
+        }
+
+        &__tit__top {
+            justify-content: center;
+            gap: 38px;
+        }
+
+        &__button {
+            justify-content: center;
+        }
+
+        &__forms {
+            justify-content: center;
         }
     }
 }

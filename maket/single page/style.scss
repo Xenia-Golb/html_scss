@@ -1,5 +1,8 @@
-@import "/maket/style/base.css";
+@import "/course2/maket/style/base.css";
 
+* {
+    box-sizing: content-box;
+}
 
 .content {
     z-index: 1;
@@ -226,4 +229,38 @@
 
     }
 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .content__information__block {
+        height: 60vh;
+        width: 100vw;
+        align-items: center;
+    }
+
+    .advertising {
+        margin-top: 720px;
+
+        &__product {
+            padding-top: 100px;
+            display: flex;
+            gap: 77px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .subscribe {
+        margin-top: 0;
+        width: 100vw;
+        height: 66vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: center;
+    }
 }
