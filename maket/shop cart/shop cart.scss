@@ -319,3 +319,31 @@ $colorSpan: #f16d7f;
         }
     }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .product {
+        padding: 10px;
+        width: 100vw;
+
+        &__details__block {
+            padding-right: 0;
+        }
+
+        &__line {
+            gap: 39px;
+        }
+
+        &__tit__top {
+            justify-content: center;
+            gap: 38px;
+        }
+
+        &__button {
+            justify-content: center;
+        }
+
+        &__forms {
+            justify-content: center;
+        }
+    }
+}

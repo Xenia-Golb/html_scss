@@ -258,4 +258,26 @@
   .product__forms {
     justify-content: center;
   }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .product {
+    padding: 10px;
+    width: 100vw;
+  }
+  .product__details__block {
+    padding-right: 0;
+  }
+  .product__line {
+    gap: 39px;
+  }
+  .product__tit__top {
+    justify-content: center;
+    gap: 38px;
+  }
+  .product__button {
+    justify-content: center;
+  }
+  .product__forms {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=shop cart.css.map */
